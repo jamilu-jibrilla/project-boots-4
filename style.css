@@ -1,0 +1,65 @@
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.cover {
+    width: 30rem;
+}
+nav a{
+    color: white;
+} 
+.pad {
+    padding: 6%;
+}
+.curve {
+    background-image: url(../images/bg-curve-desktop.svg);
+    background-size: cover;
+    background-position: center;
+}   
+.curve img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: chartreuse;
+}
+hr {
+    width: 30%;
+}
+p {
+    opacity: 70%;
+}
+@media screen and (max-width:700px) {
+
+    footer ul{
+        padding-left: 0%;
+    }
+    .cover {
+        width: 15em;
+    }
+    .no-gutters .col-md-4{
+        padding-bottom: 50px;
+    }
+    p {
+        text-align:justify ;
+    }    
+    
+}    
+
+li {
+    list-style: none;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: white;
+}
+
+footer {
+    line-height: 40px;
+}   
+footer .fab {
+    font-size: 150%;
+    padding-right: 20px;
+} 
+    
